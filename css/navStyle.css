@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    color: #2C74B3;
+}
+
+@media (max-width: 700px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

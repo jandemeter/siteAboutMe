@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.contact {
+    flex: 1;  
+    background-color: #0A2647;
+    color: white;
+    padding: 20px;
+}
+
+.skills {
+    flex: 2;  
+    background-color: #2C74B3;
+    color: white;
+    padding: 20px;
+    
+}
+
+img {
+    width: 10rem;
+    height: 13rem;
+    border-radius: 10px;
+}
+
+hr {
+    width: auto; 
+    height: 0.01rem; 
+    background: #fff 
+    
+}
+.education, .skill, .language {
+    border: 1px solid #ddd; 
+    padding: 1rem;
+    margin-top: 0.3rem;
+    border-radius: 10px; 
+    text-align:justify;
+    list-style: none;
+    background-color: #0A2647;
+}
+
+
+@media (max-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+address a{
+    color: #2C74B3;
+}
